@@ -52,7 +52,7 @@ order notes). **Rewrite `solution/prompt.txt`** — it's the highest-leverage fi
 | OS / arch | file |
 |---|---|
 | macOS (Apple Silicon, M1+) | `observathon-sim` / `observathon-score` (arm64) |
-| Windows | `observathon-sim.exe` / `observathon-score.exe` |
+| Windows | unzip the folder, run `observathon-sim\observathon-sim.exe` / `observathon-score\observathon-score.exe` (keep the folder intact) |
 | Linux | `observathon-sim` / `observathon-score` (x86_64) |
 
 (macOS Intel isn't pre-built — on Intel, run from source with Python + `openai`.) macOS

@@ -54,7 +54,7 @@ cao nhất và là một thành phần điểm **`prompt` chiếm 15%**. Xem
 | HĐH / kiến trúc | tệp |
 |---|---|
 | macOS (Apple Silicon, M1+) | `observathon-sim` / `observathon-score` (arm64) |
-| Windows | `observathon-sim.exe` / `observathon-score.exe` |
+| Windows | giải nén thư mục, chạy `observathon-sim\observathon-sim.exe` / `observathon-score\observathon-score.exe` (giữ nguyên cấu trúc thư mục) |
 | Linux | `observathon-sim` / `observathon-score` (x86_64) |
 
 (macOS Intel không có sẵn binary — trên Intel hãy chạy từ mã nguồn với Python + `openai`.)

@@ -1,0 +1,21 @@
+{
+  "team": "NguyenTheGiap",
+  "phase": "private",
+  "headline": 95.36,
+  "sub": {
+    "correct": 0.895,
+    "quality": 0.9307,
+    "error": 1.0,
+    "latency": 0.0,
+    "cost": 0.0,
+    "drift": 0.9893,
+    "prompt": 0.892
+  },
+  "diag_f1": 0.842,
+  "n": 80,
+  "n_correct": 65,
+  "judge_mode": "offline",
+  "weights_hash": "e81a8ed58d93",
+  "key_hash": "7e3905b75db0",
+  "sig": "b0d775b4cea294223b35ed21e903e1151842a8ab457ed40cb402554024a6f787"
+}

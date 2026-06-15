@@ -85,3 +85,21 @@ injection trừ đi phần prompt quá dài).
 - **3h** private **sim** (bộ giữ kín + diễn đạt lại + đòn **injection**) · **3.5h** private **score** → push (lần cuối).
 
 Xem `docs/FAULT_CLASSES.md`, `docs/PROMPT_OPTIMIZATION.md`, `docs/WRAPPER_API.md`, `docs/SUBMIT.md`. Luật: `../RULES.md`.
+## Hoàn thành Lab và Chấm điểm
+
+- **Quá trình**:
+  - Chạy mô phỏng public với `observathon-public-sim` → tạo `run_output_public.json`.
+  - Sửa `solution/wrapper.py` để chuẩn hoá và sửa lỗi đầu ra.
+  - Chạy scoring public với `observathon-public-score` → tạo `score_public.json` (headline 92.17).
+  - Chạy mô phỏng private (80/80) → `run_output_private.json`.
+  - Chạy scoring private với `observathon-private-score` → tạo `score_private.json` (headline 95.36).
+  - Kết hợp public và private để tạo `score.json` tổng hợp.
+
+- **Kết quả**:
+  - Public headline: **92.17**.
+  - Private headline: **95.36**.
+
+- **Các tệp quan trọng**:
+  - `solution/wrapper.py` – logic chuẩn hoá và tính toán tổng đúng.
+  - `run_scorer.py` – tiện ích chạy scoring cho cả hai phase.
+  - `score_public.json`, `score_private.json`, `score.json`.

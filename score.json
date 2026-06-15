@@ -1,21 +1,21 @@
 {
   "team": "NguyenTheGiap",
   "phase": "public",
-  "headline": 90.63,
+  "headline": 92.37,
   "sub": {
-    "correct": 0.8842,
-    "quality": 0.9243,
+    "correct": 0.8925,
+    "quality": 0.9293,
     "error": 1.0,
     "latency": 0.0,
-    "cost": 0.0201,
-    "drift": 0.5678,
-    "prompt": 0.8851
+    "cost": 0.0309,
+    "drift": 0.7452,
+    "prompt": 0.8893
   },
   "diag_f1": 0.778,
   "n": 120,
-  "n_correct": 96,
+  "n_correct": 97,
   "judge_mode": "offline",
   "weights_hash": "e81a8ed58d93",
   "key_hash": "9a800fa6968d",
-  "sig": "014ce30d15cea586aa4bb89c878685a61da843e35db68c2b8005f3037b1e59a3"
+  "sig": "6153a6f766003aee43687f25ba6fea14ed433c635f854fb11740e4224e4b8f48"
 }

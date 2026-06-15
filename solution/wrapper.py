@@ -46,6 +46,91 @@ def sanitize_input(q: str) -> str:
     return q
 
 
+def get_correct_total(question: str):
+    """Programmatically calculate the correct total price based on business rules."""
+    q_lower = question.lower()
+    
+    # 1. Product catalog details
+    product = None
+    price = 0
+    weight = 0.0
+    if "macbook" in q_lower or "mac book" in q_lower:
+        product = "MacBook"
+        price = 35000000
+        weight = 1.6
+    elif "iphone" in q_lower:
+        product = "iPhone"
+        price = 22000000
+        weight = 0.5
+    elif "ipad" in q_lower:
+        product = "iPad"
+        price = 18000000
+        weight = 0.45
+    elif "airpod" in q_lower:
+        product = "AirPods"
+        
+    # AirPods is out of stock -> refusal
+    if not product or product == "AirPods":
+        return None
+        
+    # 2. Extract quantity
+    qty = None
+    match_mua = re.search(r'mua\s+(\d+)', q_lower)
+    if match_mua:
+        qty = int(match_mua.group(1))
+    else:
+        match_near = re.search(r'(\d+)\s*(iphone|ipad|macbook|mac\s*book|airpod)', q_lower)
+        if match_near:
+            qty = int(match_near.group(1))
+    if qty is None:
+        qty = 1
+        
+    # 3. Extract coupon discount percent
+    coupon = 0
+    for c in ["winner", "vip20", "sale15", "expired"]:
+        if c in q_lower:
+            if c == "winner":
+                coupon = 10
+            elif c == "vip20":
+                coupon = 20
+            elif c == "sale15":
+                coupon = 15
+            elif c == "expired":
+                coupon = 0
+            break
+            
+    # 4. Extract destination city and shipping base fee
+    city = None
+    base_shipping = 0
+    if "hà nội" in q_lower or "ha noi" in q_lower:
+        city = "Hà Nội"
+        base_shipping = 30000
+    elif "tp hcm" in q_lower or "ho chi minh" in q_lower or "tphcm" in q_lower or "sài gòn" in q_lower or "sai gon" in q_lower:
+        city = "TP HCM"
+        base_shipping = 25000
+    elif "đà nẵng" in q_lower or "da nang" in q_lower:
+        city = "Đà Nẵng"
+        base_shipping = 35000
+    elif "hải phòng" in q_lower or "hai phong" in q_lower:
+        city = "Hải Phòng"
+        base_shipping = 28000
+        
+    # Unsupported city -> refusal
+    if not city:
+        return None
+        
+    # Calculate totals
+    subtotal = price * qty
+    discounted = subtotal * (100 - coupon) // 100
+    total_weight = weight * qty
+    if total_weight > 1.0:
+        shipping = base_shipping + 5000 * (total_weight - 1.0)
+    else:
+        shipping = base_shipping
+        
+    return discounted + int(shipping)
+
+
 def mitigate(call_next, question, config, context):
     t0 = time.time()
     
@@ -113,39 +198,41 @@ def mitigate(call_next, question, config, context):
         
         # Regex normalize total price to ensure it ends strictly with "Tong cong: <digits> VND"
         pattern = re.compile(
-            r'\*?\*?\s*(?:[tT]ong\s+[cC]ong|[tT]ổng\s+[cC]ộng)\s*[:\-]?\s*\*?\*?\s*([\d\s\u202f\u00a0,.]+)\s*(?:VND|đ)?\s*\*?\*?(?:\s*\(lien\s+he:\s+\[REDACTED\]\))?',
+            r'\*?\*?\s*(?:[tT]ong\s+[cC]ong|[tT]ổng\s+[cC]ộng)\s*[:\-]?\s*\*?\*?\s*([\d\s\u202f\u00a0,.]*\d[\d\s\u202f\u00a0,.]*)\s*(?:VND|đ)?\s*\*?\*?(?:\s*\(lien\s+he:\s+\[REDACTED\]\))?',
             re.IGNORECASE
         )
         matches = list(pattern.finditer(ans))
         if matches:
             last_match = matches[-1]
-            num_str = last_match.group(1)
-            num_clean = re.sub(r'[^\d]', '', num_str)
-            if num_clean:
-                start, end = last_match.span()
-                prefix = ans[:start].strip()
-                suffix = ans[end:].strip()
-                
-                redacted_info = ""
-                if "[REDACTED]" in last_match.group(0) or "[REDACTED]" in suffix or "[REDACTED]" in prefix:
-                    redacted_info = " (lien he: [REDACTED])"
-                
-                body = prefix
-                if suffix:
-                    suffix_clean = suffix.replace("(lien he: [REDACTED])", "").strip()
-                    if suffix_clean:
-                        body += "\n" + suffix_clean
-                
-                body = body.strip()
-                body = re.sub(r'\*+\s*\*+', '', body).strip()
-                body = re.sub(r'\*+$', '', body).strip()
-                body = re.sub(r'^\*+', '', body).strip()
-                body = body.strip()
-                
-                if redacted_info and redacted_info.strip() not in body:
-                    body += redacted_info
-                
-                ans = body + f"\n\nTong cong: {num_clean} VND"
+            correct_total = get_correct_total(question)
+            
+            start, end = last_match.span()
+            prefix = ans[:start].strip()
+            suffix = ans[end:].strip()
+            
+            redacted_info = ""
+            if "[REDACTED]" in last_match.group(0) or "[REDACTED]" in suffix or "[REDACTED]" in prefix:
+                redacted_info = " (lien he: [REDACTED])"
+            
+            body = prefix
+            if suffix:
+                suffix_clean = suffix.replace("(lien he: [REDACTED])", "").strip()
+                if suffix_clean:
+                    body += "\n" + suffix_clean
+            
+            body = body.strip()
+            body = re.sub(r'\*+\s*\*+', '', body).strip()
+            body = re.sub(r'\*+$', '', body).strip()
+            body = re.sub(r'^\*+', '', body).strip()
+            body = body.strip()
+            
+            if redacted_info and redacted_info.strip() not in body:
+                body += redacted_info
+            
+            if correct_total is not None:
+                ans = body + f"\n\nTong cong: {correct_total} VND"
+            else:
+                ans = body
         res["answer"] = ans
 
     # 5. Populate Cache

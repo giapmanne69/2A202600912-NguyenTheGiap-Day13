@@ -163,7 +163,7 @@
     {
       "qid": "pub-015",
       "question": "Shop con iPad khong va gia bao nhieu VND? goi minh qua sdt 0901234567",
-      "answer": "Sản phẩm iPad còn hàng, giá 18 000 000 VND cho 1 chiếc.  \nKhông có mã giảm giá và không có thông tin địa chỉ giao hàng, nên không tính phí vận chuyển. (lien he: [REDACTED])\n\nTong cong: 18000000 VND",
+      "answer": "Sản phẩm iPad còn hàng, giá 18 000 000 VND cho 1 chiếc.  \nKhông có mã giảm giá và không có thông tin địa chỉ giao hàng, nên không tính phí vận chuyển. (lien he: [REDACTED])",
       "status": "ok",
       "session": "pub-015",
       "turn": 0,
@@ -199,7 +199,7 @@
     {
       "qid": "pub-019",
       "question": "Mua 1 AirPods ap dung ma WINNER giao Ha Noi, tong thanh toan bao nhieu?",
-      "answer": "Sản phẩm AirPods hiện hết hàng nên không thể đặt mua. Email và số điện thoại khách hàng được bảo mật.\n\nTong cong: 0 VND",
+      "answer": "Sản phẩm AirPods hiện hết hàng nên không thể đặt mua. Email và số điện thoại khách hàng được bảo mật.",
       "status": "ok",
       "session": "pub-019",
       "turn": 0,
@@ -586,7 +586,7 @@
     {
       "qid": "pub-062",
       "question": "Mua 4 MacBook dung ma WINNER giao hà nội tinh tong tien giup minh.",
-      "answer": "\n\nTong cong: 140057000 VND",
+      "answer": "\n\nTong cong: 126057000 VND",
       "status": "ok",
       "session": "pub-062",
       "turn": 0,
@@ -838,7 +838,7 @@
     {
       "qid": "pub-090",
       "question": "Mua 5 iPad dung ma WINNER giao den đà lạt - tong cong bao nhieu VND?",
-      "answer": "Sản phẩm iPad còn hàng, nhưng Đà Lạt không được giao hàng. Email và số điện thoại khách hàng được bảo mật.\n\nTong cong: 0 VND",
+      "answer": "Sản phẩm iPad còn hàng, nhưng Đà Lạt không được giao hàng. Email và số điện thoại khách hàng được bảo mật.",
       "status": "ok",
       "session": "pub-090",
       "turn": 0,

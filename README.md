@@ -10,8 +10,14 @@ một lớp wrapper giảm thiểu lỗi.
 ## Cài đặt (bắt buộc có một LLM thật)
 ```bash
 # 1. chọn một engine:
-export OPENAI_API_KEY=sk-...        # đám mây (model mặc định gpt-5.4-nano), HOẶC
-#    local miễn phí: chạy Ollama / llama.cpp (tương thích OpenAI), đặt provider:"local" + LOCAL_BASE_URL trong config.json
+# Sử dụng OpenRouter (ví dụ với model gpt-oss-120b:free):
+export OPENAI_API_KEY=sk-or-v1-...  # API Key của OpenRouter
+export OPENAI_API_BASE=https://openrouter.ai/api/v1  # Base URL của OpenRouter (hoặc dùng OPENAI_BASE_URL)
+
+# Hoặc dùng OpenAI trực tiếp:
+# export OPENAI_API_KEY=sk-...        # Đám mây (model mặc định gpt-5.4-nano)
+
+# Hoặc dùng local miễn phí: chạy Ollama / llama.cpp (tương thích OpenAI) và đặt provider:"local"
 
 # 2. kiểm tra khung bài nộp (chỉ stdlib, không cần key)
 python harness/selfcheck.py

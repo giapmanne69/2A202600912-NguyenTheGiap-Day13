@@ -1,12 +1,86 @@
 {
-  "team": "TODO-team-name",
+  "team": "NguyenTheGiap",
   "schema_version": 1,
   "findings": [
     {
       "fault_class": "latency_spike",
-      "evidence": {"metric": "latency_p95_ms", "observed": "TODO from your telemetry", "trace_ids": []},
-      "root_cause": "TODO: what config knob or behavior causes it?",
-      "suggested_fix": "TODO: config change and/or wrapper mitigation"
+      "evidence": {
+        "metric": "latency_p95_ms",
+        "observed": "Observed latencies exceeding 2500ms for repeated/redundant calls.",
+        "trace_ids": []
+      },
+      "root_cause": "Uncached repeated agent execution and remote LLM request overhead.",
+      "suggested_fix": "Enable 'cache' in config.json and implement global concurrent cache in wrapper.py."
+    },
+    {
+      "fault_class": "pii_leak",
+      "evidence": {
+        "metric": "pii_leak_count",
+        "observed": "Raw customer email/phone repeated verbatim in final response answers.",
+        "trace_ids": []
+      },
+      "root_cause": "Weak system instructions failing to redact user contacts.",
+      "suggested_fix": "Enable redact_pii in config, implement regex-based redaction in wrapper.py, and instruct prompt.txt to secure PII."
+    },
+    {
+      "fault_class": "arithmetic_error",
+      "evidence": {
+        "metric": "correctness_rate",
+        "observed": "Incorrect totals and reverse discounts calculated on multi-item orders.",
+        "trace_ids": []
+      },
+      "root_cause": "High LLM temperature (1.6) leading to inconsistent reasoning and mathematical rounding errors.",
+      "suggested_fix": "Reduce temperature to 0.2, enable self-consistency, and write exact mathematical formula in prompt.txt."
+    },
+    {
+      "fault_class": "infinite_loop",
+      "evidence": {
+        "metric": "max_steps_reached",
+        "observed": "Repeated identical stock/shipping checks hitting maximum step limit (12).",
+        "trace_ids": []
+      },
+      "root_cause": "Lack of loop detection guards and budget limits in configuration.",
+      "suggested_fix": "Enable loop_guard: true and set tool_budget: 4 in config.json."
+    },
+    {
+      "fault_class": "prompt_injection",
+      "evidence": {
+        "metric": "injection_success_rate",
+        "observed": "System prices overridden by instructions placed inside customer GHI CHÚ (order notes).",
+        "trace_ids": []
+      },
+      "root_cause": "System prompt treating raw customer notes as instruction payload rather than data.",
+      "suggested_fix": "Strip numbers/command words from notes in wrapper.py input sanitizer, and add strict safety rules in prompt.txt."
+    },
+    {
+      "fault_class": "tool_failure",
+      "evidence": {
+        "metric": "tool_error_rate",
+        "observed": "Failures on shipping calculators when query cities contain Vietnamese diacritics.",
+        "trace_ids": []
+      },
+      "root_cause": "Downstream APIs failing to parse raw unicode string diacritics.",
+      "suggested_fix": "Enable normalize_unicode: true in config.json to convert strings to normalized format."
+    },
+    {
+      "fault_class": "error_spike",
+      "evidence": {
+        "metric": "error_rate",
+        "observed": "Intermittent failure rate on inventory lookup tools.",
+        "trace_ids": []
+      },
+      "root_cause": "Downstream network flakiness without built-in retry mechanisms.",
+      "suggested_fix": "Enable retry in config.json with 3 attempts and 500ms backoff."
+    },
+    {
+      "fault_class": "fabrication",
+      "evidence": {
+        "metric": "fabrication_count",
+        "observed": "Agent inventing and asserting final total prices even when products were out of stock.",
+        "trace_ids": []
+      },
+      "root_cause": "Prompt forcing the agent to always generate a total instead of refusing gracefully.",
+      "suggested_fix": "Rewrite system prompt to strictly refuse ordering and output no total if check_stock returns out-of-stock."
     }
   ]
 }

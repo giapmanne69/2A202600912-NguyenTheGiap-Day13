@@ -9,8 +9,14 @@ correcting the config, **rewriting the agent's system prompt**, and adding a mit
 ## Setup (a real LLM is required)
 ```bash
 # 1. pick an engine:
-export OPENAI_API_KEY=sk-...        # cloud (default model gpt-5.4-nano), OR
-#    free local: run Ollama / llama.cpp (OpenAI-compatible) and set provider:"local" + LOCAL_BASE_URL in config.json
+# Using OpenRouter (e.g. with model gpt-oss-120b:free):
+export OPENAI_API_KEY=sk-or-v1-...  # Your OpenRouter API Key
+export OPENAI_API_BASE=https://openrouter.ai/api/v1  # OpenRouter base URL (or use OPENAI_BASE_URL)
+
+# Or using OpenAI directly:
+# export OPENAI_API_KEY=sk-...        # cloud (default model gpt-5.4-nano)
+
+# Or using free local: run Ollama / llama.cpp (OpenAI-compatible) and set provider:"local"
 
 # 2. confirm your submission scaffold is well-formed (pure stdlib, no key)
 python harness/selfcheck.py

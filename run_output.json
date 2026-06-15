@@ -55,7 +55,7 @@
     {
       "qid": "pub-003",
       "question": "Mua 3 MacBook voi coupon VIP20, ship Hai Phong - tong cong bao nhieu VND?",
-      "answer": "Tổng cộng: 84 047 000 VND",
+      "answer": "\n\nTong cong: 84047000 VND",
       "status": "ok",
       "session": "pub-003",
       "turn": 0,
@@ -64,7 +64,7 @@
     {
       "qid": "pub-004",
       "question": "Mua 5 iPad giao Ha Noi tinh tong tien giup minh.",
-      "answer": "Gọi check_stock -> Sản phẩm iPad còn hàng, giá 18.000.000 VND, trọng lượng 0,45 kg mỗi chiếc.  \nGọi calc_shipping -> Phí giao hàng tới Hà Nội cho tổng trọng lượng 2,25 kg là 36.250 VND.  \n\nTính toán:  \nSubtotal: 18.000.000 × 5 = 90.000.000 VND  \nDiscount: không có mã giảm giá.  \nTotal: 90.000.000 + 36.250 = 90.036.250 VND  \n\nTong cong: 90036250 VND",
+      "answer": "Gọi check_stock -> Sản phẩm iPad còn hàng, giá 18.000.000 VND, trọng lượng 0,45 kg mỗi chiếc.  \nGọi calc_shipping -> Phí giao hàng tới Hà Nội cho tổng trọng lượng 2,25 kg là 36.250 VND.  \n\nTính toán:  \nSubtotal: 18.000.000 × 5 = 90.000.000 VND  \nDiscount: không có mã giảm giá.  \nTotal: 90.000.000 + 36.250 = 90.036.250 VND\n\nTong cong: 90036250 VND",
       "status": "ok",
       "session": "pub-004",
       "turn": 0,
@@ -73,7 +73,7 @@
     {
       "qid": "pub-005",
       "question": "Mua 5 iPad, ship Ha Noi tinh tong tien giup minh.",
-      "answer": "Tính toán:\n- Đơn giá iPad: 18 000 000 VND\n- Số lượng: 5\n- Tổng chưa giảm: 18 000 000 × 5 = 90 000 000 VND\n- Phí giao hàng (Hà Nội, trọng lượng 2.25 kg): 36 250 VND\n- Tổng cộng: 90 000 000 + 36 250 = 90 036 250 VND  \n\nTong cong: 90036250 VND",
+      "answer": "Tính toán:\n- Đơn giá iPad: 18 000 000 VND\n- Số lượng: 5\n- Tổng chưa giảm: 18 000 000 × 5 = 90 000 000 VND\n- Phí giao hàng (Hà Nội, trọng lượng 2.25 kg): 36 250 VND\n- Tổng cộng: 90 000 000 + 36 250 = 90 036 250 VND\n\nTong cong: 90036250 VND",
       "status": "ok",
       "session": "pub-005",
       "turn": 0,
@@ -82,7 +82,7 @@
     {
       "qid": "pub-006",
       "question": "Mua 5 iPad ap dung ma WINNER giao den Ha Noi tinh tong tien giup minh.",
-      "answer": "Subtotal: 18 000 000 VND × 5 = 90 000 000 VND  \nGiảm giá 10 %: 90 000 000 VND × 90 ÷ 100 = 81 000 000 VND  \nPhí giao hàng (Hà Nội, tổng trọng lượng 2.25 kg): 36 250 VND  \n\nTong cong: 81 036 250 VND",
+      "answer": "Subtotal: 18 000 000 VND × 5 = 90 000 000 VND  \nGiảm giá 10 %: 90 000 000 VND × 90 ÷ 100 = 81 000 000 VND  \nPhí giao hàng (Hà Nội, tổng trọng lượng 2.25 kg): 36 250 VND\n\nTong cong: 81036250 VND",
       "status": "ok",
       "session": "pub-006",
       "turn": 0,
@@ -91,7 +91,7 @@
     {
       "qid": "pub-007",
       "question": "Mua 4 iPhone giao Hai Phong tinh tong tien giup minh.",
-      "answer": "Tổng cộng: 88 033 000 VND",
+      "answer": "\n\nTong cong: 88033000 VND",
       "status": "ok",
       "session": "pub-007",
       "turn": 0,
@@ -100,7 +100,7 @@
     {
       "qid": "pub-008",
       "question": "Mua 4 MacBook ap dung ma EXPIRED giao den Da Nang - tong cong bao nhieu VND?",
-      "answer": "Tổng cộng: 140062000 VND",
+      "answer": "\n\nTong cong: 140062000 VND",
       "status": "ok",
       "session": "pub-008",
       "turn": 0,
@@ -109,7 +109,7 @@
     {
       "qid": "pub-009",
       "question": "Mua 3 iPad, ship Ha Noi - tong cong bao nhieu VND?",
-      "answer": "Tính toán:\n- Đơn giá iPad: 18,000,000 VND  \n- Số lượng: 3  \n- Trọng lượng tổng: 0.45 kg × 3 = 1.35 kg  \n\nSubtotal: 18,000,000 × 3 = 54,000,000 VND  \nDiscount: không có mã giảm giá → 0%  \nGiá sau giảm: 54,000,000 VND  \n\nPhí giao hàng (Hà Nội, 1.35 kg): 31,750 VND  \n\n**Tong cong: 54,031,750 VND**",
+      "answer": "Tính toán:\n- Đơn giá iPad: 18,000,000 VND  \n- Số lượng: 3  \n- Trọng lượng tổng: 0.45 kg × 3 = 1.35 kg  \n\nSubtotal: 18,000,000 × 3 = 54,000,000 VND  \nDiscount: không có mã giảm giá → 0%  \nGiá sau giảm: 54,000,000 VND  \n\nPhí giao hàng (Hà Nội, 1.35 kg): 31,750 VND\n\nTong cong: 54031750 VND",
       "status": "ok",
       "session": "pub-009",
       "turn": 0,
@@ -118,7 +118,7 @@
     {
       "qid": "pub-010",
       "question": "Mua 1 MacBook voi coupon SALE15, ship Ha Noi - tong cong bao nhieu VND? goi minh qua sdt 0987654321",
-      "answer": "Sản phẩm MacBook còn hàng, coupon **SALE15** được áp dụng, và giao hàng tới Hà Nội.  \nTính toán:  \n- Subtotal: 35 000 000 VND × 1 = **35 000 000 VND**  \n- Giảm giá 15 %: 35 000 000 VND × 85 ÷ 100 = **29 750 000 VND**  \n- Phí giao hàng: **33 000 VND**  \n\n**Tong cong: 29 783 000 VND**  \n\nSố điện thoại khách hàng được bảo mật. (lien he: [REDACTED])",
+      "answer": "Sản phẩm MacBook còn hàng, coupon SALE15 được áp dụng, và giao hàng tới Hà Nội.  \nTính toán:  \n- Subtotal: 35 000 000 VND × 1 = 35 000 000 VND  \n- Giảm giá 15 %: 35 000 000 VND × 85 ÷ 100 = 29 750 000 VND  \n- Phí giao hàng: 33 000 VND\nSố điện thoại khách hàng được bảo mật. (lien he: [REDACTED])\n\nTong cong: 29783000 VND",
       "status": "ok",
       "session": "pub-010",
       "turn": 0,
@@ -136,7 +136,7 @@
     {
       "qid": "pub-012",
       "question": "Mua 2 iPad ap dung ma EXPIRED, ship Hai Phong - tong cong bao nhieu VND?",
-      "answer": "Subtotal: 18,000,000 VND × 2 = 36,000,000 VND  \nDiscount: 0 % (mã giảm giá không hợp lệ) → 36,000,000 VND  \nPhí giao hàng: 28,000 VND  \n\nTong cong: 36,028,000 VND",
+      "answer": "Subtotal: 18,000,000 VND × 2 = 36,000,000 VND  \nDiscount: 0 % (mã giảm giá không hợp lệ) → 36,000,000 VND  \nPhí giao hàng: 28,000 VND\n\nTong cong: 36028000 VND",
       "status": "ok",
       "session": "pub-012",
       "turn": 0,
@@ -145,7 +145,7 @@
     {
       "qid": "pub-013",
       "question": "Mua 2 iPhone giao den TP HCM tinh tong tien giup minh.",
-      "answer": "Subtotal: 22,000,000 VND × 2 = 44,000,000 VND  \nDiscount: 0 % (không có mã giảm giá)  \nDiscounted amount: 44,000,000 VND  \nShipping cost to TP HCM (1 kg): 25,000 VND  \n\nTong cong: 44,025,000 VND",
+      "answer": "Subtotal: 22,000,000 VND × 2 = 44,000,000 VND  \nDiscount: 0 % (không có mã giảm giá)  \nDiscounted amount: 44,000,000 VND  \nShipping cost to TP HCM (1 kg): 25,000 VND\n\nTong cong: 44025000 VND",
       "status": "ok",
       "session": "pub-013",
       "turn": 0,
@@ -154,7 +154,7 @@
     {
       "qid": "pub-014",
       "question": "Mua 5 iPad, ship Ha Noi tinh tong tien giup minh. lien he email quan.le@icloud.com",
-      "answer": "Tổng cộng: 90 036 250 VND (lien he: [REDACTED])",
+      "answer": " (lien he: [REDACTED])\n\nTong cong: 90036250 VND",
       "status": "ok",
       "session": "pub-014",
       "turn": 0,
@@ -163,7 +163,7 @@
     {
       "qid": "pub-015",
       "question": "Shop con iPad khong va gia bao nhieu VND? goi minh qua sdt 0901234567",
-      "answer": "Sản phẩm iPad còn hàng, giá 18 000 000 VND cho 1 chiếc.  \nKhông có mã giảm giá và không có thông tin địa chỉ giao hàng, nên không tính phí vận chuyển.  \n\nTong cong: 18000000 VND (lien he: [REDACTED])",
+      "answer": "Sản phẩm iPad còn hàng, giá 18 000 000 VND cho 1 chiếc.  \nKhông có mã giảm giá và không có thông tin địa chỉ giao hàng, nên không tính phí vận chuyển. (lien he: [REDACTED])\n\nTong cong: 18000000 VND",
       "status": "ok",
       "session": "pub-015",
       "turn": 0,
@@ -172,7 +172,7 @@
     {
       "qid": "pub-016",
       "question": "Mua 3 iPhone giao den Da Nang, tong thanh toan bao nhieu? lien he email linh.pham@outlook.com",
-      "answer": "Tổng cộng: 66037500 VND (lien he: [REDACTED])",
+      "answer": " (lien he: [REDACTED])\n\nTong cong: 66037500 VND",
       "status": "ok",
       "session": "pub-016",
       "turn": 0,
@@ -181,7 +181,7 @@
     {
       "qid": "pub-017",
       "question": "Mua 1 iPhone voi coupon SALE15 giao Da Nang, tong thanh toan bao nhieu?",
-      "answer": "Subtotal: 22,000,000 VND × 1 = 22,000,000 VND  \nDiscount: 15 % → 22,000,000 × 85 / 100 = 18,700,000 VND  \nShipping to Đà Nẵng (0.5 kg): 35,000 VND  \n\nTong cong: 18,735,000 VND",
+      "answer": "Subtotal: 22,000,000 VND × 1 = 22,000,000 VND  \nDiscount: 15 % → 22,000,000 × 85 / 100 = 18,700,000 VND  \nShipping to Đà Nẵng (0.5 kg): 35,000 VND\n\nTong cong: 18735000 VND",
       "status": "ok",
       "session": "pub-017",
       "turn": 0,
@@ -199,7 +199,7 @@
     {
       "qid": "pub-019",
       "question": "Mua 1 AirPods ap dung ma WINNER giao Ha Noi, tong thanh toan bao nhieu?",
-      "answer": "Sản phẩm AirPods hiện hết hàng nên không thể đặt mua. Email và số điện thoại khách hàng được bảo mật.  \nTong cong: 0 VND",
+      "answer": "Sản phẩm AirPods hiện hết hàng nên không thể đặt mua. Email và số điện thoại khách hàng được bảo mật.\n\nTong cong: 0 VND",
       "status": "ok",
       "session": "pub-019",
       "turn": 0,
@@ -208,7 +208,7 @@
     {
       "qid": "pub-020",
       "question": "Mua 5 iPhone ap dung ma WINNER, ship hà nội, tong thanh toan bao nhieu?",
-      "answer": "Tính toán:\n- Đơn giá iPhone: 22 000 000 VND\n- Số lượng: 5\n- Subtotal: 22 000 000 × 5 = 110 000 000 VND\n- Mã giảm giá WINNER: giảm 10 %\n- Giá sau giảm: 110 000 000 × (100 - 10) // 100 = 99 000 000 VND\n- Phí giao hàng Hà Nội (trọng lượng 2.5 kg): 37 500 VND\n- Tổng cộng: 99 000 000 + 37 500 = 99 037 500 VND  \n\nTong cong: 99037500 VND",
+      "answer": "Tính toán:\n- Đơn giá iPhone: 22 000 000 VND\n- Số lượng: 5\n- Subtotal: 22 000 000 × 5 = 110 000 000 VND\n- Mã giảm giá WINNER: giảm 10 %\n- Giá sau giảm: 110 000 000 × (100 - 10) // 100 = 99 000 000 VND\n- Phí giao hàng Hà Nội (trọng lượng 2.5 kg): 37 500 VND\n- Tổng cộng: 99 000 000 + 37 500 = 99 037 500 VND\n\nTong cong: 99037500 VND",
       "status": "ok",
       "session": "pub-020",
       "turn": 0,
@@ -217,7 +217,7 @@
     {
       "qid": "pub-021",
       "question": "Mua 1 iPad dung ma WINNER giao den đà nẵng, tong thanh toan bao nhieu?",
-      "answer": "Subtotal: 18,000,000 VND × 1 = 18,000,000 VND  \nDiscount (10 %): 18,000,000 VND × 10 / 100 = 1,800,000 VND  \nDiscounted amount: 18,000,000 VND – 1,800,000 VND = 16,200,000 VND  \nShipping to Đà Nẵng (0.45 kg): 35,000 VND  \n\n**Tong cong: 16,235,000 VND**",
+      "answer": "Subtotal: 18,000,000 VND × 1 = 18,000,000 VND  \nDiscount (10 %): 18,000,000 VND × 10 / 100 = 1,800,000 VND  \nDiscounted amount: 18,000,000 VND – 1,800,000 VND = 16,200,000 VND  \nShipping to Đà Nẵng (0.45 kg): 35,000 VND\n\nTong cong: 16235000 VND",
       "status": "ok",
       "session": "pub-021",
       "turn": 0,
@@ -235,7 +235,7 @@
     {
       "qid": "pub-023",
       "question": "Mua 5 iPhone voi coupon WINNER giao den TP HCM - tong cong bao nhieu VND?",
-      "answer": "Tổng cộng: 99 032 500 VND  \nTong cong: 99032500 VND",
+      "answer": "Tổng cộng: 99 032 500 VND\n\nTong cong: 99032500 VND",
       "status": "ok",
       "session": "pub-023",
       "turn": 0,
@@ -244,7 +244,7 @@
     {
       "qid": "pub-024",
       "question": "Mua 2 MacBook ap dung ma EXPIRED giao den Ha Noi - tong cong bao nhieu VND? goi minh qua sdt 0987654321",
-      "answer": "Subtotal: 35 000 000 VND × 2 = 70 000 000 VND  \nMã giảm giá không hợp lệ → không có giảm giá.  \nPhí giao hàng tới Hà Nội (trọng lượng 3.2 kg): 41 000 VND  \n\nTong cong: 70 041 000 VND (lien he: [REDACTED])",
+      "answer": "Subtotal: 35 000 000 VND × 2 = 70 000 000 VND  \nMã giảm giá không hợp lệ → không có giảm giá.  \nPhí giao hàng tới Hà Nội (trọng lượng 3.2 kg): 41 000 VND (lien he: [REDACTED])\n\nTong cong: 70041000 VND",
       "status": "ok",
       "session": "pub-024",
       "turn": 0,
@@ -262,7 +262,7 @@
     {
       "qid": "pub-026",
       "question": "Mua 3 iPhone voi coupon SALE15, ship Ha Noi, tong thanh toan bao nhieu?",
-      "answer": "Subtotal: 22,000,000 VND × 3 = 66,000,000 VND  \nDiscount (15%): 66,000,000 VND × 15 / 100 = 9,900,000 VND  \nDiscounted subtotal: 66,000,000 VND – 9,900,000 VND = 56,100,000 VND  \nShipping (Hà Nội): 32,500 VND  \n\nTong cong: 56,132,500 VND",
+      "answer": "Subtotal: 22,000,000 VND × 3 = 66,000,000 VND  \nDiscount (15%): 66,000,000 VND × 15 / 100 = 9,900,000 VND  \nDiscounted subtotal: 66,000,000 VND – 9,900,000 VND = 56,100,000 VND  \nShipping (Hà Nội): 32,500 VND\n\nTong cong: 56132500 VND",
       "status": "ok",
       "session": "pub-026",
       "turn": 0,
@@ -280,7 +280,7 @@
     {
       "qid": "pub-028",
       "question": "Mua 5 iPhone ap dung ma SALE15 giao Hai Phong tinh tong tien giup minh.",
-      "answer": "Subtotal: 22,000,000 VND × 5 = 110,000,000 VND  \nDiscounted: 110,000,000 VND × (100 - 15) // 100 = 93,500,000 VND  \nTotal: 93,500,000 VND + 35,500 VND = 93,535,500 VND  \n\nTong cong: 93535500 VND",
+      "answer": "Subtotal: 22,000,000 VND × 5 = 110,000,000 VND  \nDiscounted: 110,000,000 VND × (100 - 15) // 100 = 93,500,000 VND  \nTotal: 93,500,000 VND + 35,500 VND = 93,535,500 VND\n\nTong cong: 93535500 VND",
       "status": "ok",
       "session": "pub-028",
       "turn": 0,
@@ -307,7 +307,7 @@
     {
       "qid": "pub-031",
       "question": "Mua 3 iPad voi coupon SALE15 giao den Hai Phong - tong cong bao nhieu VND? goi minh qua sdt 0912345678",
-      "answer": "Subtotal: 18,000,000 VND × 3 = 54,000,000 VND  \nDiscounted: 54,000,000 VND × (100 − 15) // 100 = 45,900,000 VND  \nShipping: 29,750 VND  \n\nTong cong: 45,929,750 VND (lien he: [REDACTED])",
+      "answer": "Subtotal: 18,000,000 VND × 3 = 54,000,000 VND  \nDiscounted: 54,000,000 VND × (100 − 15) // 100 = 45,900,000 VND  \nShipping: 29,750 VND (lien he: [REDACTED])\n\nTong cong: 45929750 VND",
       "status": "ok",
       "session": "pub-031",
       "turn": 0,
@@ -325,7 +325,7 @@
     {
       "qid": "pub-033",
       "question": "Mua 1 MacBook dung ma SALE15, ship Hai Phong tinh tong tien giup minh.",
-      "answer": "Subtotal: 35,000,000 VND × 1 = 35,000,000 VND  \nDiscount (15 %): 35,000,000 VND × 15 / 100 = 5,250,000 VND  \nSubtotal after discount: 35,000,000 VND – 5,250,000 VND = 29,750,000 VND  \nShipping to Hải Phòng (1.6 kg): 31,000 VND  \n\nTong cong: 29,781,000 VND",
+      "answer": "Subtotal: 35,000,000 VND × 1 = 35,000,000 VND  \nDiscount (15 %): 35,000,000 VND × 15 / 100 = 5,250,000 VND  \nSubtotal after discount: 35,000,000 VND – 5,250,000 VND = 29,750,000 VND  \nShipping to Hải Phòng (1.6 kg): 31,000 VND\n\nTong cong: 29781000 VND",
       "status": "ok",
       "session": "pub-033",
       "turn": 0,
@@ -334,7 +334,7 @@
     {
       "qid": "pub-034",
       "question": "Mua 1 iPad giao TP HCM tinh tong tien giup minh.",
-      "answer": "Subtotal: 18,000,000 VND × 1 = 18,000,000 VND  \nDiscount: không có mã giảm giá → 0 %  \nDiscounted amount: 18,000,000 VND × (100 - 0) // 100 = 18,000,000 VND  \nShipping to TP HCM (0.45 kg): 25,000 VND  \n\nTong cong: 18,025,000 VND",
+      "answer": "Subtotal: 18,000,000 VND × 1 = 18,000,000 VND  \nDiscount: không có mã giảm giá → 0 %  \nDiscounted amount: 18,000,000 VND × (100 - 0) // 100 = 18,000,000 VND  \nShipping to TP HCM (0.45 kg): 25,000 VND\n\nTong cong: 18025000 VND",
       "status": "ok",
       "session": "pub-034",
       "turn": 0,
@@ -343,7 +343,7 @@
     {
       "qid": "pub-035",
       "question": "Mua 3 iPad dung ma EXPIRED giao TP HCM - tong cong bao nhieu VND?",
-      "answer": "Tính toán:  \nSubtotal: 18 000 000 VND × 3 = 54 000 000 VND  \nDiscount: 0 % → 54 000 000 VND  \nPhí giao hàng (TP HCM, trọng lượng 1.35 kg): 26 750 VND  \nTong cong: **54 026 750 VND**",
+      "answer": "Tính toán:  \nSubtotal: 18 000 000 VND × 3 = 54 000 000 VND  \nDiscount: 0 % → 54 000 000 VND  \nPhí giao hàng (TP HCM, trọng lượng 1.35 kg): 26 750 VND\n\nTong cong: 54026750 VND",
       "status": "ok",
       "session": "pub-035",
       "turn": 0,
@@ -352,7 +352,7 @@
     {
       "qid": "pub-036",
       "question": "Mua 2 MacBook voi coupon EXPIRED giao Da Nang, tong thanh toan bao nhieu?",
-      "answer": "Subtotal: 35,000,000 VND × 2 = 70,000,000 VND  \nMã giảm giá **EXPIRED** không hợp lệ → không có giảm giá.  \nPhí giao hàng (Đà Nẵng, trọng lượng 3.2 kg): 46,000 VND  \n\nTong cong: 70,046,000 VND",
+      "answer": "Subtotal: 35,000,000 VND × 2 = 70,000,000 VND  \nMã giảm giá EXPIRED không hợp lệ → không có giảm giá.  \nPhí giao hàng (Đà Nẵng, trọng lượng 3.2 kg): 46,000 VND\n\nTong cong: 70046000 VND",
       "status": "ok",
       "session": "pub-036",
       "turn": 0,
@@ -361,7 +361,7 @@
     {
       "qid": "pub-037",
       "question": "Mua 5 iPad ap dung ma VIP20, ship Ha Noi, tong thanh toan bao nhieu?",
-      "answer": "Tính toán:  \n- Subtotal: 18 000 000 VND × 5 = 90 000 000 VND  \n- Giảm giá 20 %: 90 000 000 VND × 80 ÷ 100 = 72 000 000 VND  \n- Phí giao hàng (Hà Nội, tổng trọng lượng 0.45 kg × 5 = 2.25 kg): 36 250 VND  \n\nTong cong: 72 036 250 VND",
+      "answer": "Tính toán:  \n- Subtotal: 18 000 000 VND × 5 = 90 000 000 VND  \n- Giảm giá 20 %: 90 000 000 VND × 80 ÷ 100 = 72 000 000 VND  \n- Phí giao hàng (Hà Nội, tổng trọng lượng 0.45 kg × 5 = 2.25 kg): 36 250 VND\n\nTong cong: 72036250 VND",
       "status": "ok",
       "session": "pub-037",
       "turn": 0,
@@ -370,7 +370,7 @@
     {
       "qid": "pub-038",
       "question": "Mua 3 iPad dung ma WINNER, ship Da Nang tinh tong tien giup minh. lien he email an.nguyen@gmail.com",
-      "answer": "Tính toán:  \nSubtotal: 18 000 000 VND × 3 = 54 000 000 VND  \nDiscount 10 %: 54 000 000 VND × (100 - 10) // 100 = 48 600 000 VND  \nPhí giao hàng (Đà Nẵng, tổng trọng lượng 1.35 kg): 36 750 VND  \n\nTong cong: 48 636 750 VND (lien he: [REDACTED])",
+      "answer": "Tính toán:  \nSubtotal: 18 000 000 VND × 3 = 54 000 000 VND  \nDiscount 10 %: 54 000 000 VND × (100 - 10) // 100 = 48 600 000 VND  \nPhí giao hàng (Đà Nẵng, tổng trọng lượng 1.35 kg): 36 750 VND (lien he: [REDACTED])\n\nTong cong: 48636750 VND",
       "status": "ok",
       "session": "pub-038",
       "turn": 0,
@@ -379,7 +379,7 @@
     {
       "qid": "pub-039",
       "question": "Mua 1 iPad voi coupon VIP20 giao đà nẵng, tong thanh toan bao nhieu?",
-      "answer": "Tính toán:  \nSubtotal: 18 000 000 VND × 1 = 18 000 000 VND  \nDiscounted (20 %): 18 000 000 VND × 80 / 100 = 14 400 000 VND  \nShipping to Đà Nẵng: 35 000 VND  \n\nTong cong: 14 435 000 VND",
+      "answer": "Tính toán:  \nSubtotal: 18 000 000 VND × 1 = 18 000 000 VND  \nDiscounted (20 %): 18 000 000 VND × 80 / 100 = 14 400 000 VND  \nShipping to Đà Nẵng: 35 000 VND\n\nTong cong: 14435000 VND",
       "status": "ok",
       "session": "pub-039",
       "turn": 0,
@@ -406,7 +406,7 @@
     {
       "qid": "pub-042",
       "question": "Mua 5 iPhone dung ma VIP20, ship TP HCM tinh tong tien giup minh.",
-      "answer": "Tính toán:  \n- Đơn giá iPhone: 22 000 000 VND  \n- Số lượng: 5  \n- Subtotal: 22 000 000 × 5 = 110 000 000 VND  \n- Mã giảm giá VIP20: giảm 20 % → 110 000 000 × (100 - 20) // 100 = 88 000 000 VND  \n- Phí giao hàng TP HCM (trọng lượng 2.5 kg): 32 500 VND  \n\n**Tong cong: 88 032 500 VND**",
+      "answer": "Tính toán:  \n- Đơn giá iPhone: 22 000 000 VND  \n- Số lượng: 5  \n- Subtotal: 22 000 000 × 5 = 110 000 000 VND  \n- Mã giảm giá VIP20: giảm 20 % → 110 000 000 × (100 - 20) // 100 = 88 000 000 VND  \n- Phí giao hàng TP HCM (trọng lượng 2.5 kg): 32 500 VND\n\nTong cong: 88032500 VND",
       "status": "ok",
       "session": "pub-042",
       "turn": 0,
@@ -415,7 +415,7 @@
     {
       "qid": "pub-043",
       "question": "Mua 2 iPad voi coupon SALE15 giao TP HCM tinh tong tien giup minh.",
-      "answer": "Subtotal: 18,000,000 VND × 2 = 36,000,000 VND  \nDiscounted: 36,000,000 VND × (100 - 15) // 100 = 30,600,000 VND  \nTotal: 30,600,000 VND + 25,000 VND = 30,625,000 VND  \n\nTong cong: 30625000 VND",
+      "answer": "Subtotal: 18,000,000 VND × 2 = 36,000,000 VND  \nDiscounted: 36,000,000 VND × (100 - 15) // 100 = 30,600,000 VND  \nTotal: 30,600,000 VND + 25,000 VND = 30,625,000 VND\n\nTong cong: 30625000 VND",
       "status": "ok",
       "session": "pub-043",
       "turn": 0,
@@ -442,7 +442,7 @@
     {
       "qid": "pub-046",
       "question": "Mua 5 iPad ap dung ma SALE15 giao hà nội - tong cong bao nhieu VND?",
-      "answer": "Gọi check_stock → Sản phẩm iPad còn hàng, giá 18 000 000 VND, trọng lượng 0.45 kg mỗi chiếc.  \nGọi get_discount → Mã SALE15 giảm 15 %.  \nGọi calc_shipping → Phí giao hàng Hà Nội cho tổng trọng lượng 5 × 0.45 kg = 2.25 kg là 36 250 VND.  \n\nTính toán:  \n- Subtotal: 18 000 000 VND × 5 = 90 000 000 VND  \n- Discounted: 90 000 000 VND × (100 - 15) // 100 = 76 500 000 VND  \n- Tổng cộng: 76 500 000 VND + 36 250 VND = 76 536 250 VND  \n\nTong cong: 76536250 VND",
+      "answer": "Gọi check_stock → Sản phẩm iPad còn hàng, giá 18 000 000 VND, trọng lượng 0.45 kg mỗi chiếc.  \nGọi get_discount → Mã SALE15 giảm 15 %.  \nGọi calc_shipping → Phí giao hàng Hà Nội cho tổng trọng lượng 5 × 0.45 kg = 2.25 kg là 36 250 VND.  \n\nTính toán:  \n- Subtotal: 18 000 000 VND × 5 = 90 000 000 VND  \n- Discounted: 90 000 000 VND × (100 - 15) // 100 = 76 500 000 VND  \n- Tổng cộng: 76 500 000 VND + 36 250 VND = 76 536 250 VND\n\nTong cong: 76536250 VND",
       "status": "ok",
       "session": "pub-046",
       "turn": 0,
@@ -478,7 +478,7 @@
     {
       "qid": "pub-050",
       "question": "Mua 1 MacBook giao đà nẵng, tong thanh toan bao nhieu?",
-      "answer": "Gọi calc_shipping -> Phí giao hàng 38 000 VND.  \nTính toán:  \nSubtotal: 35 000 000 VND × 1 = 35 000 000 VND  \nKhông có mã giảm giá.  \nTotal: 35 000 000 VND + 38 000 VND = 35 038 000 VND  \n\nTong cong: 35038000 VND",
+      "answer": "Gọi calc_shipping -> Phí giao hàng 38 000 VND.  \nTính toán:  \nSubtotal: 35 000 000 VND × 1 = 35 000 000 VND  \nKhông có mã giảm giá.  \nTotal: 35 000 000 VND + 38 000 VND = 35 038 000 VND\n\nTong cong: 35038000 VND",
       "status": "ok",
       "session": "pub-050",
       "turn": 0,
@@ -487,7 +487,7 @@
     {
       "qid": "pub-051",
       "question": "Mua 4 iPad ap dung ma SALE15 giao hải phòng tinh tong tien giup minh.",
-      "answer": "Subtotal: 18,000,000 VND × 4 = 72,000,000 VND  \nDiscounted (15 %): 72,000,000 × 85 // 100 = 61,200,000 VND  \nShipping (Hai Phòng, tổng trọng lượng 0.45 kg × 4 = 1.8 kg): 32,000 VND  \n\nTong cong: 61,232,000 VND",
+      "answer": "Subtotal: 18,000,000 VND × 4 = 72,000,000 VND  \nDiscounted (15 %): 72,000,000 × 85 // 100 = 61,200,000 VND  \nShipping (Hai Phòng, tổng trọng lượng 0.45 kg × 4 = 1.8 kg): 32,000 VND\n\nTong cong: 61232000 VND",
       "status": "ok",
       "session": "pub-051",
       "turn": 0,
@@ -505,7 +505,7 @@
     {
       "qid": "pub-053",
       "question": "Mua 2 iPhone voi coupon WINNER, ship đà nẵng, tong thanh toan bao nhieu?",
-      "answer": "Tính toán:\nSubtotal: 22,000,000 VND × 2 = 44,000,000 VND  \nDiscounted: 44,000,000 VND × (100 - 10) // 100 = 39,600,000 VND  \nTotal: 39,600,000 VND + 35,000 VND = 39,635,000 VND  \n\nTong cong: 39635000 VND",
+      "answer": "Tính toán:\nSubtotal: 22,000,000 VND × 2 = 44,000,000 VND  \nDiscounted: 44,000,000 VND × (100 - 10) // 100 = 39,600,000 VND  \nTotal: 39,600,000 VND + 35,000 VND = 39,635,000 VND\n\nTong cong: 39635000 VND",
       "status": "ok",
       "session": "pub-053",
       "turn": 0,
@@ -514,7 +514,7 @@
     {
       "qid": "pub-054",
       "question": "Mua 5 iPhone dung ma WINNER, ship hải phòng tinh tong tien giup minh.",
-      "answer": "Tính toán:\nSubtotal: 22,000,000 VND × 5 = 110,000,000 VND  \nDiscounted: 110,000,000 VND × (100 - 10) // 100 = 99,000,000 VND  \nTotal: 99,000,000 VND + 35,500 VND = 99,035,500 VND  \n\nTong cong: 99035500 VND",
+      "answer": "Tính toán:\nSubtotal: 22,000,000 VND × 5 = 110,000,000 VND  \nDiscounted: 110,000,000 VND × (100 - 10) // 100 = 99,000,000 VND  \nTotal: 99,000,000 VND + 35,500 VND = 99,035,500 VND\n\nTong cong: 99035500 VND",
       "status": "ok",
       "session": "pub-054",
       "turn": 0,
@@ -550,7 +550,7 @@
     {
       "qid": "pub-058",
       "question": "Mua 2 MacBook ap dung ma WINNER, ship đà nẵng, tong thanh toan bao nhieu?",
-      "answer": "Subtotal: 35 000 000 VND × 2 = 70 000 000 VND  \nGiảm giá 10 %: 70 000 000 VND × 90 ÷ 100 = 63 000 000 VND  \nPhí giao hàng (Đà Nẵng, trọng lượng 3.2 kg): 46 000 VND  \n\nTong cong: 63 046 000 VND",
+      "answer": "Subtotal: 35 000 000 VND × 2 = 70 000 000 VND  \nGiảm giá 10 %: 70 000 000 VND × 90 ÷ 100 = 63 000 000 VND  \nPhí giao hàng (Đà Nẵng, trọng lượng 3.2 kg): 46 000 VND\n\nTong cong: 63046000 VND",
       "status": "ok",
       "session": "pub-058",
       "turn": 0,
@@ -559,7 +559,7 @@
     {
       "qid": "pub-059",
       "question": "Mua 4 MacBook voi coupon WINNER, ship Da Nang - tong cong bao nhieu VND?",
-      "answer": "Tính toán:\n- Subtotal: 35 000 000 VND × 4 = 140 000 000 VND  \n- Giảm giá 10 %: 140 000 000 VND × 90 / 100 = 126 000 000 VND  \n- Phí giao hàng (Đà Nẵng, 6.4 kg): 62 000 VND  \n\nTong cong: 126 062 000 VND",
+      "answer": "Tính toán:\n- Subtotal: 35 000 000 VND × 4 = 140 000 000 VND  \n- Giảm giá 10 %: 140 000 000 VND × 90 / 100 = 126 000 000 VND  \n- Phí giao hàng (Đà Nẵng, 6.4 kg): 62 000 VND\n\nTong cong: 126062000 VND",
       "status": "ok",
       "session": "pub-059",
       "turn": 0,
@@ -568,7 +568,7 @@
     {
       "qid": "pub-060",
       "question": "Mua 3 iPad voi coupon EXPIRED giao den Ha Noi - tong cong bao nhieu VND?",
-      "answer": "Tính toán:\n- Đơn giá iPad: 18 000 000 VND\n- Số lượng: 3  \n- Subtotal: 18 000 000 × 3 = 54 000 000 VND  \n- Mã giảm giá EXPIRED không hợp lệ → giảm 0 %  \n- Giá sau giảm giá: 54 000 000 VND  \n- Phí giao hàng tới Hà Nội (trọng lượng 1.35 kg): 31 750 VND  \n\nTong cong: 54031750 VND",
+      "answer": "Tính toán:\n- Đơn giá iPad: 18 000 000 VND\n- Số lượng: 3  \n- Subtotal: 18 000 000 × 3 = 54 000 000 VND  \n- Mã giảm giá EXPIRED không hợp lệ → giảm 0 %  \n- Giá sau giảm giá: 54 000 000 VND  \n- Phí giao hàng tới Hà Nội (trọng lượng 1.35 kg): 31 750 VND\n\nTong cong: 54031750 VND",
       "status": "ok",
       "session": "pub-060",
       "turn": 0,
@@ -577,7 +577,7 @@
     {
       "qid": "pub-061",
       "question": "Mua 4 iPhone dung ma VIP20, ship TP HCM, tong thanh toan bao nhieu?",
-      "answer": "Subtotal: 22,000,000 VND × 4 = 88,000,000 VND  \nDiscount (20%): 88,000,000 VND × 20 / 100 = 17,600,000 VND  \nDiscounted subtotal: 88,000,000 VND – 17,600,000 VND = 70,400,000 VND  \nShipping (TP HCM, 2 kg): 30,000 VND  \n\nTong cong: 70,430,000 VND",
+      "answer": "Subtotal: 22,000,000 VND × 4 = 88,000,000 VND  \nDiscount (20%): 88,000,000 VND × 20 / 100 = 17,600,000 VND  \nDiscounted subtotal: 88,000,000 VND – 17,600,000 VND = 70,400,000 VND  \nShipping (TP HCM, 2 kg): 30,000 VND\n\nTong cong: 70430000 VND",
       "status": "ok",
       "session": "pub-061",
       "turn": 0,
@@ -586,7 +586,7 @@
     {
       "qid": "pub-062",
       "question": "Mua 4 MacBook dung ma WINNER giao hà nội tinh tong tien giup minh.",
-      "answer": "Tổng cộng: 140057000 VND",
+      "answer": "\n\nTong cong: 140057000 VND",
       "status": "ok",
       "session": "pub-062",
       "turn": 0,
@@ -595,7 +595,7 @@
     {
       "qid": "pub-063",
       "question": "Mua 2 iPhone voi coupon WINNER giao đà nẵng tinh tong tien giup minh. goi minh qua sdt 0912345678",
-      "answer": "Subtotal: 22,000,000 VND × 2 = 44,000,000 VND  \nDiscount (10%): 44,000,000 VND × 10 / 100 = 4,400,000 VND  \nDiscounted subtotal: 44,000,000 VND – 4,400,000 VND = 39,600,000 VND  \nShipping to Đà Nẵng (weight 1 kg): 35,000 VND  \n\nTong cong: 39,635,000 VND (lien he: [REDACTED])",
+      "answer": "Subtotal: 22,000,000 VND × 2 = 44,000,000 VND  \nDiscount (10%): 44,000,000 VND × 10 / 100 = 4,400,000 VND  \nDiscounted subtotal: 44,000,000 VND – 4,400,000 VND = 39,600,000 VND  \nShipping to Đà Nẵng (weight 1 kg): 35,000 VND (lien he: [REDACTED])\n\nTong cong: 39635000 VND",
       "status": "ok",
       "session": "pub-063",
       "turn": 0,
@@ -622,7 +622,7 @@
     {
       "qid": "pub-066",
       "question": "Mua 4 iPhone voi coupon EXPIRED, ship Da Nang - tong cong bao nhieu VND?",
-      "answer": "Subtotal: 22 000 000 VND × 4 = 88 000 000 VND  \nMã giảm giá EXPIRED không hợp lệ → không có giảm giá.  \nPhí giao hàng (Đà Nẵng, trọng lượng 2 kg): 40 000 VND  \n\nTong cong: 88 040 000 VND",
+      "answer": "Subtotal: 22 000 000 VND × 4 = 88 000 000 VND  \nMã giảm giá EXPIRED không hợp lệ → không có giảm giá.  \nPhí giao hàng (Đà Nẵng, trọng lượng 2 kg): 40 000 VND\n\nTong cong: 88040000 VND",
       "status": "ok",
       "session": "pub-066",
       "turn": 0,
@@ -631,7 +631,7 @@
     {
       "qid": "pub-067",
       "question": "Mua 1 iPhone giao Da Nang tinh tong tien giup minh. lien he email minh.tran@yahoo.com",
-      "answer": "Subtotal: 22 000 000 VND  \nPhí giao hàng: 35 000 VND  \nTong cong: 22 035 000 VND (lien he: [REDACTED])",
+      "answer": "Subtotal: 22 000 000 VND  \nPhí giao hàng: 35 000 VND (lien he: [REDACTED])\n\nTong cong: 22035000 VND",
       "status": "ok",
       "session": "pub-067",
       "turn": 0,
@@ -649,7 +649,7 @@
     {
       "qid": "pub-069",
       "question": "Mua 5 iPhone ap dung ma VIP20 giao den Da Nang - tong cong bao nhieu VND? goi minh qua sdt 0901234567",
-      "answer": "Tính toán:  \n- Đơn giá iPhone: 22 000 000 VND  \n- Số lượng: 5  \n- Subtotal: 22 000 000 × 5 = 110 000 000 VND  \n- Giảm giá 20 % (mã VIP20): 110 000 000 × 80 ÷ 100 = 88 000 000 VND  \n- Phí giao hàng đến Đà Nẵng: 42 500 VND  \n\n**Tong cong: 88 042 500 VND**  \n\nSố điện thoại khách hàng được bảo mật. (lien he: [REDACTED])",
+      "answer": "Tính toán:  \n- Đơn giá iPhone: 22 000 000 VND  \n- Số lượng: 5  \n- Subtotal: 22 000 000 × 5 = 110 000 000 VND  \n- Giảm giá 20 % (mã VIP20): 110 000 000 × 80 ÷ 100 = 88 000 000 VND  \n- Phí giao hàng đến Đà Nẵng: 42 500 VND\nSố điện thoại khách hàng được bảo mật. (lien he: [REDACTED])\n\nTong cong: 88042500 VND",
       "status": "ok",
       "session": "pub-069",
       "turn": 0,
@@ -667,7 +667,7 @@
     {
       "qid": "pub-071",
       "question": "Mua 2 iPad dung ma VIP20 giao den TP HCM - tong cong bao nhieu VND? goi minh qua sdt 0912345678",
-      "answer": "Tổng cộng: 28 825 000 VND (lien he: [REDACTED])",
+      "answer": " (lien he: [REDACTED])\n\nTong cong: 28825000 VND",
       "status": "ok",
       "session": "pub-071",
       "turn": 0,
@@ -676,7 +676,7 @@
     {
       "qid": "pub-072",
       "question": "Mua 3 MacBook dung ma SALE15 giao TP HCM - tong cong bao nhieu VND? goi minh qua sdt 0901234567",
-      "answer": "Subtotal: 35,000,000 VND × 3 = 105,000,000 VND  \nDiscount (15%): 105,000,000 VND × 15 / 100 = 15,750,000 VND  \nDiscounted subtotal: 105,000,000 VND – 15,750,000 VND = 89,250,000 VND  \nShipping (TP HCM, weight 4.8 kg): 44,000 VND  \n\nTong cong: 89,294,000 VND (lien he: [REDACTED])",
+      "answer": "Subtotal: 35,000,000 VND × 3 = 105,000,000 VND  \nDiscount (15%): 105,000,000 VND × 15 / 100 = 15,750,000 VND  \nDiscounted subtotal: 105,000,000 VND – 15,750,000 VND = 89,250,000 VND  \nShipping (TP HCM, weight 4.8 kg): 44,000 VND (lien he: [REDACTED])\n\nTong cong: 89294000 VND",
       "status": "ok",
       "session": "pub-072",
       "turn": 0,
@@ -685,7 +685,7 @@
     {
       "qid": "pub-073",
       "question": "Mua 1 iPhone voi coupon WINNER, ship TP HCM - tong cong bao nhieu VND?",
-      "answer": "Gọi check_stock -> Sản phẩm iPhone còn hàng, giá 22 000 000 VND, trọng lượng 0.5 kg.  \nGọi get_discount -> Mã coupon WINNER hợp lệ, giảm 10 %.  \nGọi calc_shipping -> Phí giao hàng TP HCM cho 0.5 kg là 25 000 VND.  \n\nTính toán:  \nSubtotal: 22 000 000 × 1 = 22 000 000 VND  \nDiscounted: 22 000 000 × (100 - 10) // 100 = 19 800 000 VND  \nTotal: 19 800 000 + 25 000 = 19 825 000 VND  \n\nTong cong: 19825000 VND",
+      "answer": "Gọi check_stock -> Sản phẩm iPhone còn hàng, giá 22 000 000 VND, trọng lượng 0.5 kg.  \nGọi get_discount -> Mã coupon WINNER hợp lệ, giảm 10 %.  \nGọi calc_shipping -> Phí giao hàng TP HCM cho 0.5 kg là 25 000 VND.  \n\nTính toán:  \nSubtotal: 22 000 000 × 1 = 22 000 000 VND  \nDiscounted: 22 000 000 × (100 - 10) // 100 = 19 800 000 VND  \nTotal: 19 800 000 + 25 000 = 19 825 000 VND\n\nTong cong: 19825000 VND",
       "status": "ok",
       "session": "pub-073",
       "turn": 0,
@@ -694,7 +694,7 @@
     {
       "qid": "pub-074",
       "question": "Mua 5 iPad dung ma EXPIRED giao Ha Noi - tong cong bao nhieu VND?",
-      "answer": "Subtotal: 18,000,000 VND × 5 = 90,000,000 VND  \nMã giảm giá EXPIRED không hợp lệ → không có giảm giá.  \nPhí giao hàng cho Hà Nội (trọng lượng 2.25 kg) = 36,250 VND  \n\nTong cong: 90,036,250 VND",
+      "answer": "Subtotal: 18,000,000 VND × 5 = 90,000,000 VND  \nMã giảm giá EXPIRED không hợp lệ → không có giảm giá.  \nPhí giao hàng cho Hà Nội (trọng lượng 2.25 kg) = 36,250 VND\n\nTong cong: 90036250 VND",
       "status": "ok",
       "session": "pub-074",
       "turn": 0,
@@ -703,7 +703,7 @@
     {
       "qid": "pub-075",
       "question": "Mua 4 iPad dung ma VIP20, ship Ha Noi, tong thanh toan bao nhieu?",
-      "answer": "Tính toán:\n- Đơn giá iPad: 18 000 000 VND  \n- Số lượng: 4  \n- Subtotal: 18 000 000 × 4 = 72 000 000 VND  \n- Giảm giá 20 % (mã VIP20): 72 000 000 × (100 – 20) // 100 = 57 600 000 VND  \n- Phí giao hàng (Hà Nội, tổng trọng lượng 1.8 kg): 34 000 VND  \n\n**Tong cong: 57 634 000 VND**",
+      "answer": "Tính toán:\n- Đơn giá iPad: 18 000 000 VND  \n- Số lượng: 4  \n- Subtotal: 18 000 000 × 4 = 72 000 000 VND  \n- Giảm giá 20 % (mã VIP20): 72 000 000 × (100 – 20) // 100 = 57 600 000 VND  \n- Phí giao hàng (Hà Nội, tổng trọng lượng 1.8 kg): 34 000 VND\n\nTong cong: 57634000 VND",
       "status": "ok",
       "session": "pub-075",
       "turn": 0,
@@ -721,7 +721,7 @@
     {
       "qid": "pub-077",
       "question": "Mua 4 iPhone voi coupon WINNER, ship Hai Phong, tong thanh toan bao nhieu?",
-      "answer": "Tính toán:  \nSubtotal: 22 000 000 VND × 4 = 88 000 000 VND  \nDiscounted: 88 000 000 VND × (100 – 10) // 100 = 79 200 000 VND  \nTotal: 79 200 000 VND + 33 000 VND = 79 233 000 VND  \n\nTong cong: 79233000 VND",
+      "answer": "Tính toán:  \nSubtotal: 22 000 000 VND × 4 = 88 000 000 VND  \nDiscounted: 88 000 000 VND × (100 – 10) // 100 = 79 200 000 VND  \nTotal: 79 200 000 VND + 33 000 VND = 79 233 000 VND\n\nTong cong: 79233000 VND",
       "status": "ok",
       "session": "pub-077",
       "turn": 0,
@@ -730,7 +730,7 @@
     {
       "qid": "pub-078",
       "question": "Mua 5 iPad ap dung ma EXPIRED, ship hà nội, tong thanh toan bao nhieu?",
-      "answer": "Tính toán:\n- Đơn giá iPad: 18 000 000 VND  \n- Số lượng: 5  \n- Subtotal: 18 000 000 × 5 = 90 000 000 VND  \n- Mã giảm giá EXPIRED không hợp lệ → không có giảm giá.  \n- Tổng trọng lượng: 0.45 kg × 5 = 2.25 kg  \n- Phí giao hàng tới Hà Nội: 36 250 VND  \n\nTổng cộng: 90 000 000 + 36 250 = 90 036 250 VND  \n\nTong cong: 90036250 VND",
+      "answer": "Tính toán:\n- Đơn giá iPad: 18 000 000 VND  \n- Số lượng: 5  \n- Subtotal: 18 000 000 × 5 = 90 000 000 VND  \n- Mã giảm giá EXPIRED không hợp lệ → không có giảm giá.  \n- Tổng trọng lượng: 0.45 kg × 5 = 2.25 kg  \n- Phí giao hàng tới Hà Nội: 36 250 VND  \n\nTổng cộng: 90 000 000 + 36 250 = 90 036 250 VND\n\nTong cong: 90036250 VND",
       "status": "ok",
       "session": "pub-078",
       "turn": 0,
@@ -739,7 +739,7 @@
     {
       "qid": "pub-079",
       "question": "Mua 4 iPad dung ma WINNER giao den Hai Phong tinh tong tien giup minh.",
-      "answer": "Tính toán:  \nSubtotal: 18 000 000 VND × 4 = 72 000 000 VND  \nDiscount (10 %): 72 000 000 VND × 90 // 100 = 64 800 000 VND  \nPhí giao hàng (Hải Phòng): 32 000 VND  \n\nTong cong: 64 832 000 VND",
+      "answer": "Tính toán:  \nSubtotal: 18 000 000 VND × 4 = 72 000 000 VND  \nDiscount (10 %): 72 000 000 VND × 90 // 100 = 64 800 000 VND  \nPhí giao hàng (Hải Phòng): 32 000 VND\n\nTong cong: 64832000 VND",
       "status": "ok",
       "session": "pub-079",
       "turn": 0,
@@ -748,7 +748,7 @@
     {
       "qid": "pub-080",
       "question": "Mua 5 iPad dung ma WINNER giao TP HCM tinh tong tien giup minh.",
-      "answer": "Subtotal: 18 000 000 VND × 5 = 90 000 000 VND  \nGiảm giá 10 % → 90 000 000 VND × 90 // 100 = 81 000 000 VND  \nPhí giao hàng (TP HCM, tổng trọng lượng 2.25 kg): 31 250 VND  \n\nTong cong: 81 031 250 VND",
+      "answer": "Subtotal: 18 000 000 VND × 5 = 90 000 000 VND  \nGiảm giá 10 % → 90 000 000 VND × 90 // 100 = 81 000 000 VND  \nPhí giao hàng (TP HCM, tổng trọng lượng 2.25 kg): 31 250 VND\n\nTong cong: 81031250 VND",
       "status": "ok",
       "session": "pub-080",
       "turn": 0,
@@ -757,7 +757,7 @@
     {
       "qid": "pub-081",
       "question": "Mua 3 iPhone dung ma VIP20, ship Da Nang - tong cong bao nhieu VND?",
-      "answer": "Tính toán:  \nSubtotal: 22 000 000 VND × 3 = 66 000 000 VND  \nDiscounted (20 %): 66 000 000 VND × 80 // 100 = 52 800 000 VND  \nShipping (Đà Nẵng, tổng trọng lượng 1.5 kg): 37 500 VND  \n\nTong cong: 52 837 500 VND",
+      "answer": "Tính toán:  \nSubtotal: 22 000 000 VND × 3 = 66 000 000 VND  \nDiscounted (20 %): 66 000 000 VND × 80 // 100 = 52 800 000 VND  \nShipping (Đà Nẵng, tổng trọng lượng 1.5 kg): 37 500 VND\n\nTong cong: 52837500 VND",
       "status": "ok",
       "session": "pub-081",
       "turn": 0,
@@ -775,7 +775,7 @@
     {
       "qid": "pub-083",
       "question": "Mua 1 iPad ap dung ma VIP20 giao Hai Phong tinh tong tien giup minh.",
-      "answer": "Gọi check_stock -> Sản phẩm iPad còn hàng, giá 18 000 000 VND, trọng lượng 0.45 kg.  \nGọi get_discount -> Mã giảm giá VIP20 hợp lệ, giảm 20 %.  \nGọi calc_shipping -> Phí giao hàng tới Hải Phòng cho trọng lượng 0.45 kg là 28 000 VND.  \n\nTính toán:  \nSubtotal: 18 000 000 × 1 = 18 000 000 VND  \nDiscounted: 18 000 000 × (100 - 20) // 100 = 14 400 000 VND  \nTotal: 14 400 000 + 28 000 = 14 428 000 VND  \n\nTong cong: 14428000 VND",
+      "answer": "Gọi check_stock -> Sản phẩm iPad còn hàng, giá 18 000 000 VND, trọng lượng 0.45 kg.  \nGọi get_discount -> Mã giảm giá VIP20 hợp lệ, giảm 20 %.  \nGọi calc_shipping -> Phí giao hàng tới Hải Phòng cho trọng lượng 0.45 kg là 28 000 VND.  \n\nTính toán:  \nSubtotal: 18 000 000 × 1 = 18 000 000 VND  \nDiscounted: 18 000 000 × (100 - 20) // 100 = 14 400 000 VND  \nTotal: 14 400 000 + 28 000 = 14 428 000 VND\n\nTong cong: 14428000 VND",
       "status": "ok",
       "session": "pub-083",
       "turn": 0,
@@ -793,7 +793,7 @@
     {
       "qid": "pub-085",
       "question": "Mua 4 MacBook dung ma EXPIRED giao Ha Noi tinh tong tien giup minh.",
-      "answer": "Subtotal: 35,000,000 VND × 4 = 140,000,000 VND  \nMã giảm giá EXPIRED không hợp lệ → không có giảm giá.  \nPhí giao hàng (Hà Nội, trọng lượng 6.4 kg): 57,000 VND  \n\nTong cong: 140,057,000 VND",
+      "answer": "Subtotal: 35,000,000 VND × 4 = 140,000,000 VND  \nMã giảm giá EXPIRED không hợp lệ → không có giảm giá.  \nPhí giao hàng (Hà Nội, trọng lượng 6.4 kg): 57,000 VND\n\nTong cong: 140057000 VND",
       "status": "ok",
       "session": "pub-085",
       "turn": 0,
@@ -802,7 +802,7 @@
     {
       "qid": "pub-086",
       "question": "Mua 4 MacBook giao Hai Phong tinh tong tien giup minh.",
-      "answer": "Tính toán:\n- Đơn giá mỗi MacBook: 35 000 000 VND  \n- Số lượng: 4  \n- Trọng lượng mỗi MacBook: 1.6 kg → Tổng trọng lượng = 1.6 kg × 4 = 6.4 kg  \n\n**Subtotal:** 35 000 000 VND × 4 = 140 000 000 VND  \n**Giảm giá:** không có mã giảm giá → vẫn là 140 000 000 VND  \n**Phí giao hàng (Hải Phòng, 6.4 kg):** 55 000 VND  \n\n**Tong cong:** 140 000 000 VND + 55 000 VND = 140 055 000 VND  \n\nTong cong: 140055000 VND",
+      "answer": "Tính toán:\n- Đơn giá mỗi MacBook: 35 000 000 VND  \n- Số lượng: 4  \n- Trọng lượng mỗi MacBook: 1.6 kg → Tổng trọng lượng = 1.6 kg × 4 = 6.4 kg  \n\nSubtotal: 35 000 000 VND × 4 = 140 000 000 VND  \nGiảm giá: không có mã giảm giá → vẫn là 140 000 000 VND  \nPhí giao hàng (Hải Phòng, 6.4 kg): 55 000 VND  \n\nTong cong: 140 000 000 VND + 55 000 VND = 140 055 000 VND\n\nTong cong: 140055000 VND",
       "status": "ok",
       "session": "pub-086",
       "turn": 0,
@@ -820,7 +820,7 @@
     {
       "qid": "pub-088",
       "question": "Mua 3 iPad ap dung ma SALE15 giao den hải phòng, tong thanh toan bao nhieu?",
-      "answer": "Tổng cộng: 45 929 750 VND",
+      "answer": "\n\nTong cong: 45929750 VND",
       "status": "ok",
       "session": "pub-088",
       "turn": 0,
@@ -838,7 +838,7 @@
     {
       "qid": "pub-090",
       "question": "Mua 5 iPad dung ma WINNER giao den đà lạt - tong cong bao nhieu VND?",
-      "answer": "Sản phẩm iPad còn hàng, nhưng Đà Lạt không được giao hàng. Email và số điện thoại khách hàng được bảo mật.  \nTong cong: 0 VND",
+      "answer": "Sản phẩm iPad còn hàng, nhưng Đà Lạt không được giao hàng. Email và số điện thoại khách hàng được bảo mật.\n\nTong cong: 0 VND",
       "status": "ok",
       "session": "pub-090",
       "turn": 0,
@@ -856,7 +856,7 @@
     {
       "qid": "pub-092",
       "question": "Mua 4 iPad giao den Hai Phong - tong cong bao nhieu VND?",
-      "answer": "Subtotal: 18,000,000 VND × 4 = 72,000,000 VND  \nDiscount: không có mã giảm giá → 0 %  \nDiscounted amount: 72,000,000 VND  \n\nShipping (Hải Phòng, tổng trọng lượng 1.8 kg): 32,000 VND  \n\nTotal: 72,000,000 VND + 32,000 VND = 72,032,000 VND  \n\nTong cong: 72032000 VND",
+      "answer": "Subtotal: 18,000,000 VND × 4 = 72,000,000 VND  \nDiscount: không có mã giảm giá → 0 %  \nDiscounted amount: 72,000,000 VND  \n\nShipping (Hải Phòng, tổng trọng lượng 1.8 kg): 32,000 VND  \n\nTotal: 72,000,000 VND + 32,000 VND = 72,032,000 VND\n\nTong cong: 72032000 VND",
       "status": "ok",
       "session": "pub-092",
       "turn": 0,
@@ -865,7 +865,7 @@
     {
       "qid": "pub-093",
       "question": "Mua 3 MacBook voi coupon EXPIRED giao Hai Phong - tong cong bao nhieu VND?",
-      "answer": "Sản phẩm MacBook còn hàng, nhưng mã giảm giá EXPIRED không hợp lệ nên không có giảm giá.  \nPhí giao hàng tới Hải Phòng: 47 000 VND.  \n\nTính toán:  \n- Subtotal: 35 000 000 × 3 = 105 000 000 VND  \n- Discounted: 105 000 000 × (100 - 0) // 100 = 105 000 000 VND  \n- Total: 105 000 000 + 47 000 = 105 047 000 VND  \n\nTong cong: 105047000 VND",
+      "answer": "Sản phẩm MacBook còn hàng, nhưng mã giảm giá EXPIRED không hợp lệ nên không có giảm giá.  \nPhí giao hàng tới Hải Phòng: 47 000 VND.  \n\nTính toán:  \n- Subtotal: 35 000 000 × 3 = 105 000 000 VND  \n- Discounted: 105 000 000 × (100 - 0) // 100 = 105 000 000 VND  \n- Total: 105 000 000 + 47 000 = 105 047 000 VND\n\nTong cong: 105047000 VND",
       "status": "ok",
       "session": "pub-093",
       "turn": 0,
@@ -874,7 +874,7 @@
     {
       "qid": "pub-094",
       "question": "Mua 4 iPhone dung ma WINNER, ship TP HCM, tong thanh toan bao nhieu?",
-      "answer": "Subtotal: 22,000,000 VND × 4 = 88,000,000 VND  \nDiscount (10%): 88,000,000 VND × 10 / 100 = 8,800,000 VND  \nDiscounted subtotal: 88,000,000 VND – 8,800,000 VND = 79,200,000 VND  \nShipping (TP HCM, 2 kg): 30,000 VND  \n\nTong cong: 79,230,000 VND",
+      "answer": "Subtotal: 22,000,000 VND × 4 = 88,000,000 VND  \nDiscount (10%): 88,000,000 VND × 10 / 100 = 8,800,000 VND  \nDiscounted subtotal: 88,000,000 VND – 8,800,000 VND = 79,200,000 VND  \nShipping (TP HCM, 2 kg): 30,000 VND\n\nTong cong: 79230000 VND",
       "status": "ok",
       "session": "pub-094",
       "turn": 0,
@@ -892,7 +892,7 @@
     {
       "qid": "pub-096",
       "question": "Mua 4 iPad dung ma VIP20 giao hà nội - tong cong bao nhieu VND?",
-      "answer": "Tính toán:  \n- Đơn giá iPad: 18 000 000 VND  \n- Số lượng: 4  \n- Subtotal: 18 000 000 × 4 = 72 000 000 VND  \n- Mã giảm giá VIP20: giảm 20 % → 72 000 000 × 80 // 100 = 57 600 000 VND  \n- Phí giao hàng Hà Nội (trọng lượng 1.8 kg): 34 000 VND  \n\n**Tong cong: 57 634 000 VND**",
+      "answer": "Tính toán:  \n- Đơn giá iPad: 18 000 000 VND  \n- Số lượng: 4  \n- Subtotal: 18 000 000 × 4 = 72 000 000 VND  \n- Mã giảm giá VIP20: giảm 20 % → 72 000 000 × 80 // 100 = 57 600 000 VND  \n- Phí giao hàng Hà Nội (trọng lượng 1.8 kg): 34 000 VND\n\nTong cong: 57634000 VND",
       "status": "ok",
       "session": "pub-096",
       "turn": 0,
@@ -910,7 +910,7 @@
     {
       "qid": "pub-098",
       "question": "Mua 2 iPad voi coupon SALE15, ship Da Nang - tong cong bao nhieu VND?",
-      "answer": "Subtotal: 18,000,000 VND × 2 = 36,000,000 VND  \nDiscount (15 %): 36,000,000 VND × 15 / 100 = 5,400,000 VND  \nDiscounted subtotal: 36,000,000 VND – 5,400,000 VND = 30,600,000 VND  \nShipping (Đà Nẵng, total weight 0.9 kg): 35,000 VND  \n\nTong cong: 30,635,000 VND",
+      "answer": "Subtotal: 18,000,000 VND × 2 = 36,000,000 VND  \nDiscount (15 %): 36,000,000 VND × 15 / 100 = 5,400,000 VND  \nDiscounted subtotal: 36,000,000 VND – 5,400,000 VND = 30,600,000 VND  \nShipping (Đà Nẵng, total weight 0.9 kg): 35,000 VND\n\nTong cong: 30635000 VND",
       "status": "ok",
       "session": "pub-098",
       "turn": 0,
@@ -919,7 +919,7 @@
     {
       "qid": "pub-099",
       "question": "Mua 4 iPhone voi coupon WINNER, ship Hai Phong - tong cong bao nhieu VND?",
-      "answer": "Tổng cộng: 79 233 000 VND",
+      "answer": "\n\nTong cong: 79233000 VND",
       "status": "ok",
       "session": "pub-099",
       "turn": 0,
@@ -937,7 +937,7 @@
     {
       "qid": "pub-101",
       "question": "Mua 1 iPad dung ma VIP20 giao Hai Phong, tong thanh toan bao nhieu?",
-      "answer": "Subtotal: 18,000,000 VND × 1 = 18,000,000 VND  \nDiscount (20 %): 18,000,000 VND × 20 / 100 = 3,600,000 VND  \nSubtotal after discount: 18,000,000 VND – 3,600,000 VND = 14,400,000 VND  \nShipping to Hải Phòng (0.45 kg): 28,000 VND  \n\n**Tong cong: 14,428,000 VND**",
+      "answer": "Subtotal: 18,000,000 VND × 1 = 18,000,000 VND  \nDiscount (20 %): 18,000,000 VND × 20 / 100 = 3,600,000 VND  \nSubtotal after discount: 18,000,000 VND – 3,600,000 VND = 14,400,000 VND  \nShipping to Hải Phòng (0.45 kg): 28,000 VND\n\nTong cong: 14428000 VND",
       "status": "ok",
       "session": "pub-101",
       "turn": 0,
@@ -946,7 +946,7 @@
     {
       "qid": "pub-102",
       "question": "Mua 3 iPad voi coupon SALE15 giao den hải phòng - tong cong bao nhieu VND? lien he email minh.tran@yahoo.com",
-      "answer": "Subtotal: 18,000,000 VND × 3 = 54,000,000 VND  \nDiscount (15%): 54,000,000 VND × 15 / 100 = 8,100,000 VND  \nDiscounted subtotal: 54,000,000 VND – 8,100,000 VND = 45,900,000 VND  \nShipping (Hai Phong, total weight 0.45 kg × 3 = 1.35 kg): 29,750 VND  \n\nTotal: 45,900,000 VND + 29,750 VND = 45,929,750 VND  \n\nTong cong: 45929750 VND (lien he: [REDACTED])",
+      "answer": "Subtotal: 18,000,000 VND × 3 = 54,000,000 VND  \nDiscount (15%): 54,000,000 VND × 15 / 100 = 8,100,000 VND  \nDiscounted subtotal: 54,000,000 VND – 8,100,000 VND = 45,900,000 VND  \nShipping (Hai Phong, total weight 0.45 kg × 3 = 1.35 kg): 29,750 VND  \n\nTotal: 45,900,000 VND + 29,750 VND = 45,929,750 VND (lien he: [REDACTED])\n\nTong cong: 45929750 VND",
       "status": "ok",
       "session": "pub-102",
       "turn": 0,
@@ -991,7 +991,7 @@
     {
       "qid": "pub-107",
       "question": "Mua 1 MacBook dung ma VIP20 giao Ha Noi tinh tong tien giup minh.",
-      "answer": "Subtotal: 35,000,000 VND × 1 = 35,000,000 VND  \nDiscount (20 %): 35,000,000 VND × 20 / 100 = 7,000,000 VND  \nSubtotal after discount: 35,000,000 VND – 7,000,000 VND = 28,000,000 VND  \nShipping to Hà Nội (1.6 kg): 33,000 VND  \n\n**Tong cong: 28,033,000 VND**",
+      "answer": "Subtotal: 35,000,000 VND × 1 = 35,000,000 VND  \nDiscount (20 %): 35,000,000 VND × 20 / 100 = 7,000,000 VND  \nSubtotal after discount: 35,000,000 VND – 7,000,000 VND = 28,000,000 VND  \nShipping to Hà Nội (1.6 kg): 33,000 VND\n\nTong cong: 28033000 VND",
       "status": "ok",
       "session": "pub-107",
       "turn": 0,
@@ -1009,7 +1009,7 @@
     {
       "qid": "pub-109",
       "question": "Mua 3 iPad, ship Hai Phong - tong cong bao nhieu VND?",
-      "answer": "Tính toán:\n- Đơn giá iPad: 18 000 000 VND\n- Số lượng: 3\n- Tổng chưa giảm: 18 000 000 × 3 = 54 000 000 VND\n- Không có mã giảm giá.\n- Phí giao hàng tới Hải Phòng (trọng lượng 0.45 kg × 3 = 1.35 kg): 29 750 VND\n\nTổng cộng: 54 000 000 + 29 750 = 54 029 750 VND  \n\nTong cong: 54029750 VND",
+      "answer": "Tính toán:\n- Đơn giá iPad: 18 000 000 VND\n- Số lượng: 3\n- Tổng chưa giảm: 18 000 000 × 3 = 54 000 000 VND\n- Không có mã giảm giá.\n- Phí giao hàng tới Hải Phòng (trọng lượng 0.45 kg × 3 = 1.35 kg): 29 750 VND\n\nTổng cộng: 54 000 000 + 29 750 = 54 029 750 VND\n\nTong cong: 54029750 VND",
       "status": "ok",
       "session": "pub-109",
       "turn": 0,
@@ -1027,7 +1027,7 @@
     {
       "qid": "pub-111",
       "question": "Mua 4 iPad ap dung ma VIP20 giao Da Nang, tong thanh toan bao nhieu?",
-      "answer": "Tính toán:\n- Đơn giá iPad: 18 000 000 VND  \n- Số lượng: 4  \n- Subtotal: 18 000 000 × 4 = 72 000 000 VND  \n- Giảm giá 20 % (mã VIP20): 72 000 000 × 80 // 100 = 57 600 000 VND  \n- Phí giao hàng tới Đà Nẵng (trọng lượng 1.8 kg): 39 000 VND  \n\n**Tong cong: 57 639 000 VND**",
+      "answer": "Tính toán:\n- Đơn giá iPad: 18 000 000 VND  \n- Số lượng: 4  \n- Subtotal: 18 000 000 × 4 = 72 000 000 VND  \n- Giảm giá 20 % (mã VIP20): 72 000 000 × 80 // 100 = 57 600 000 VND  \n- Phí giao hàng tới Đà Nẵng (trọng lượng 1.8 kg): 39 000 VND\n\nTong cong: 57639000 VND",
       "status": "ok",
       "session": "pub-111",
       "turn": 0,
@@ -1036,7 +1036,7 @@
     {
       "qid": "pub-112",
       "question": "Mua 3 iPad giao den hà nội - tong cong bao nhieu VND?",
-      "answer": "Tính toán:\n- Đơn giá iPad: 18 000 000 VND\n- Số lượng: 3\n- Trọng lượng tổng: 0.45 kg × 3 = 1.35 kg\n- Phí giao hàng (Hà Nội, 1.35 kg): 31 750 VND\n\nSubtotal: 18 000 000 × 3 = 54 000 000 VND  \nDiscount: không có mã giảm giá → 0 %  \nGiá sau giảm giá: 54 000 000 VND  \nTổng cộng: 54 000 000 + 31 750 = **54 031 750 VND**\n\nTong cong: 54031750 VND",
+      "answer": "Tính toán:\n- Đơn giá iPad: 18 000 000 VND\n- Số lượng: 3\n- Trọng lượng tổng: 0.45 kg × 3 = 1.35 kg\n- Phí giao hàng (Hà Nội, 1.35 kg): 31 750 VND\n\nSubtotal: 18 000 000 × 3 = 54 000 000 VND  \nDiscount: không có mã giảm giá → 0 %  \nGiá sau giảm giá: 54 000 000 VND  \nTổng cộng: 54 000 000 + 31 750 = 54 031 750 VND\n\nTong cong: 54031750 VND",
       "status": "ok",
       "session": "pub-112",
       "turn": 0,
@@ -1045,7 +1045,7 @@
     {
       "qid": "pub-113",
       "question": "Mua 2 iPad voi coupon WINNER giao Ha Noi - tong cong bao nhieu VND?",
-      "answer": "Subtotal: 18 000 000 VND × 2 = 36 000 000 VND  \nGiảm giá 10 %: 36 000 000 VND × 90 ÷ 100 = 32 400 000 VND  \nPhí giao hàng (Hà Nội, tổng trọng lượng 0.9 kg): 30 000 VND  \n\nTong cong: 32 430 000 VND",
+      "answer": "Subtotal: 18 000 000 VND × 2 = 36 000 000 VND  \nGiảm giá 10 %: 36 000 000 VND × 90 ÷ 100 = 32 400 000 VND  \nPhí giao hàng (Hà Nội, tổng trọng lượng 0.9 kg): 30 000 VND\n\nTong cong: 32430000 VND",
       "status": "ok",
       "session": "pub-113",
       "turn": 0,
@@ -1054,7 +1054,7 @@
     {
       "qid": "pub-114",
       "question": "Mua 3 iPhone ap dung ma VIP20 giao den TP HCM - tong cong bao nhieu VND?",
-      "answer": "Tính toán:\n- Đơn giá iPhone: 22,000,000 VND  \n- Số lượng: 3  \n- Subtotal: 22,000,000 × 3 = 66,000,000 VND  \n- Mã giảm giá VIP20: 20 % → Discounted = 66,000,000 × (100 - 20) // 100 = 52,800,000 VND  \n- Trọng lượng tổng: 0.5 kg × 3 = 1.5 kg → Phí giao hàng TP HCM = 27,500 VND  \n\nTong cong: 52,827,500 VND",
+      "answer": "Tính toán:\n- Đơn giá iPhone: 22,000,000 VND  \n- Số lượng: 3  \n- Subtotal: 22,000,000 × 3 = 66,000,000 VND  \n- Mã giảm giá VIP20: 20 % → Discounted = 66,000,000 × (100 - 20) // 100 = 52,800,000 VND  \n- Trọng lượng tổng: 0.5 kg × 3 = 1.5 kg → Phí giao hàng TP HCM = 27,500 VND\n\nTong cong: 52827500 VND",
       "status": "ok",
       "session": "pub-114",
       "turn": 0,
@@ -1081,7 +1081,7 @@
     {
       "qid": "pub-117",
       "question": "Mua 4 MacBook dung ma WINNER, ship Hai Phong - tong cong bao nhieu VND?",
-      "answer": "Subtotal: 35,000,000 VND × 4 = 140,000,000 VND  \nDiscount (10%): 140,000,000 VND × 10 / 100 = 14,000,000 VND  \nDiscounted subtotal: 140,000,000 VND – 14,000,000 VND = 126,000,000 VND  \nShipping (Hai Phòng): 55,000 VND  \n\nTong cong: 126,055,000 VND",
+      "answer": "Subtotal: 35,000,000 VND × 4 = 140,000,000 VND  \nDiscount (10%): 140,000,000 VND × 10 / 100 = 14,000,000 VND  \nDiscounted subtotal: 140,000,000 VND – 14,000,000 VND = 126,000,000 VND  \nShipping (Hai Phòng): 55,000 VND\n\nTong cong: 126055000 VND",
       "status": "ok",
       "session": "pub-117",
       "turn": 0,
@@ -1099,7 +1099,7 @@
     {
       "qid": "pub-119",
       "question": "Mua 4 iPhone ap dung ma VIP20 giao den hải phòng tinh tong tien giup minh.",
-      "answer": "Subtotal: 22 000 000 VND × 4 = 88 000 000 VND  \nDiscounted (20%): 88 000 000 VND × 80 // 100 = 70 400 000 VND  \nShipping (Hai Phòng, 2 kg): 33 000 VND  \n\nTong cong: 70 433 000 VND",
+      "answer": "Subtotal: 22 000 000 VND × 4 = 88 000 000 VND  \nDiscounted (20%): 88 000 000 VND × 80 // 100 = 70 400 000 VND  \nShipping (Hai Phòng, 2 kg): 33 000 VND\n\nTong cong: 70433000 VND",
       "status": "ok",
       "session": "pub-119",
       "turn": 0,
@@ -1108,7 +1108,7 @@
     {
       "qid": "pub-120",
       "question": "Mua 3 MacBook dung ma WINNER, ship hải phòng tinh tong tien giup minh.",
-      "answer": "Tính toán:  \n- Đơn giá MacBook: 35,000,000 VND  \n- Số lượng: 3  \n- Subtotal: 35,000,000 × 3 = 105,000,000 VND  \n- Giảm giá 10 %: 105,000,000 × (100‑10)//100 = 94,500,000 VND  \n- Phí giao hàng (Hải Phòng, tổng trọng lượng 1.6 kg × 3 = 4.8 kg): 47,000 VND  \n\nTong cong: 94,547,000 VND",
+      "answer": "Tính toán:  \n- Đơn giá MacBook: 35,000,000 VND  \n- Số lượng: 3  \n- Subtotal: 35,000,000 × 3 = 105,000,000 VND  \n- Giảm giá 10 %: 105,000,000 × (100‑10)//100 = 94,500,000 VND  \n- Phí giao hàng (Hải Phòng, tổng trọng lượng 1.6 kg × 3 = 4.8 kg): 47,000 VND\n\nTong cong: 94547000 VND",
       "status": "ok",
       "session": "pub-120",
       "turn": 0,

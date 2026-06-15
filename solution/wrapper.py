@@ -106,11 +106,47 @@ def mitigate(call_next, question, config, context):
                 }
             time.sleep(0.2)
 
-    # 4. Output Redaction (PII Leak Guard)
+    # 4. Output Redaction (PII Leak Guard) & Formatting Normalization
     if res and res.get("answer"):
         redacted_ans, num_redacts = redact(res["answer"])
-        if num_redacts > 0:
-            res["answer"] = redacted_ans
+        ans = redacted_ans if num_redacts > 0 else res["answer"]
+        
+        # Regex normalize total price to ensure it ends strictly with "Tong cong: <digits> VND"
+        pattern = re.compile(
+            r'\*?\*?\s*(?:[tT]ong\s+[cC]ong|[tT]ổng\s+[cC]ộng)\s*[:\-]?\s*\*?\*?\s*([\d\s\u202f\u00a0,.]+)\s*(?:VND|đ)?\s*\*?\*?(?:\s*\(lien\s+he:\s+\[REDACTED\]\))?',
+            re.IGNORECASE
+        )
+        matches = list(pattern.finditer(ans))
+        if matches:
+            last_match = matches[-1]
+            num_str = last_match.group(1)
+            num_clean = re.sub(r'[^\d]', '', num_str)
+            if num_clean:
+                start, end = last_match.span()
+                prefix = ans[:start].strip()
+                suffix = ans[end:].strip()
+                
+                redacted_info = ""
+                if "[REDACTED]" in last_match.group(0) or "[REDACTED]" in suffix or "[REDACTED]" in prefix:
+                    redacted_info = " (lien he: [REDACTED])"
+                
+                body = prefix
+                if suffix:
+                    suffix_clean = suffix.replace("(lien he: [REDACTED])", "").strip()
+                    if suffix_clean:
+                        body += "\n" + suffix_clean
+                
+                body = body.strip()
+                body = re.sub(r'\*+\s*\*+', '', body).strip()
+                body = re.sub(r'\*+$', '', body).strip()
+                body = re.sub(r'^\*+', '', body).strip()
+                body = body.strip()
+                
+                if redacted_info and redacted_info.strip() not in body:
+                    body += redacted_info
+                
+                ans = body + f"\n\nTong cong: {num_clean} VND"
+        res["answer"] = ans
 
     # 5. Populate Cache
     if res and res.get("status") == "ok" and cache is not None and lock is not None:
